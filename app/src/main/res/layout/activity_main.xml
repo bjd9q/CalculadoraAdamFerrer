@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <TextView
+            android:id="@+id/textField"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/pantalla"
+            android:textSize="60sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/borrar"
+            android:layout_width="205dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarBorrar"
+            android:text="@string/borrar"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/vaciar"
+            android:layout_width="205dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarVaciar"
+            android:text="@string/vaciar"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/siete"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarSiete"
+            android:text="@string/siete"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/ocho"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarOcho"
+            android:text="@string/ocho"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/nueve"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarNueve"
+            android:text="@string/nueve"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/dividir"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarDivision"
+            android:text="@string/dividir"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/cuatro"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarCuatro"
+            android:text="@string/cuatro"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cinco"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarCinco"
+            android:text="@string/cinco"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/seis"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarSeis"
+            android:text="@string/seis"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/multiplicar"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarMultiplicacion"
+            android:text="@string/multiplicar"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/uno"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarUno"
+            android:text="@string/uno"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/dos"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarDos"
+            android:text="@string/dos"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/tres"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarTres"
+            android:text="@string/tres"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/sumar"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarSuma"
+            android:text="@string/suma"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/coma"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarComa"
+            android:text="@string/coma"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cero"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarCero"
+            android:text="@string/cero"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/resultado"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarResultado"
+            android:text="@string/resultado"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/restar"
+            android:layout_width="102dp"
+            android:layout_height="90dp"
+            android:onClick="pulsarRestar"
+            android:text="@string/restar"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
